@@ -1,7 +1,10 @@
 /* external css verdik */
 h1{
-    color: blue;
+    color: rgb(25, 151, 67);
     text-align: left;
+}
+h2{
+    color: chartreuse;
 }
 
 button{
