@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-
-export default class özl extends Component {
+ class özl extends Component {
   render() {
     return (
         <div>
-           React ın daha başındayız la 
+           
+           <h2><u>React ın daha başındayız la</u></h2> 
             <form>
             <input type="text"/>
             <button> Kaydet</button>
@@ -14,3 +14,4 @@ export default class özl extends Component {
     )
   }
 }
+export default özl;
