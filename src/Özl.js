@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 
 class Özl extends Component {
+
+  constructor()
+  {
+      super();
+      console.log("Özl");
+  }
   static propTypes={
     newsData:PropTypes.shape(
       {

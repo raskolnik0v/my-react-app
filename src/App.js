@@ -4,32 +4,60 @@ import Özl from "./Özl";
 import "./App.css";
 import "./Deneme.css";
 import Arakatman from "./Arakatman";
+import Counter from "./Counter";
+import Footer from "./Footer";
 
+    // const title = "React Eğitimi";
+    // const description = "Daha yolun başindayiz";
 
+    // const dizim = [{
+    //   id:1,
+    //   title: "Hiper",
+    //   description: "React"
+    // },
+    // {
+    //   id:2,
+    //   title: "Süper",
+    //   description: "React öğrenmek"
+    // },
+    // {
+    //   id:3,
+    //   title: "Hiper Süper",
+    //   description: "React kendisi"
+    // }
+    // ]
 class App extends Component {
+
+  // state = {
+  //   name:"göktttaaaşşş"
+  // }
+  //   addNews()
+  // {
+  //   console.log("Ekledim");
+  //   dizim.push({
+  //     id:4,
+  //     title:"muhteşem",
+  //     description:"muhteşem ötesi"
+  //   })
+  //   console.log(dizim);
+  // }
+
+  // changeName()
+  // {
+  //   console.log(this.state)
+  //   this.setState(
+  //     {
+  //       name :"ÖZALLLLALLALALAL"
+  //     }
+  //   )
+
+  // }
+
   render() {
     // const sayi=27;
     // const dogrumu=true;
     
-    const title = "React Eğitimi";
-    const description = "Daha yolun başindayiz";
-
-    const dizim = [{
-      id:1,
-      title: "Hiper",
-      description: "React"
-    },
-    {
-      id:2,
-      title: "Süper",
-      description: "React öğrenmek"
-    },
-    {
-      id:3,
-      title: "Hiper Süper",
-      description: "React kendisi"
-    }
-    ]
+    
     return (
       <div className="App">
         {/* <h1>Merhaba Dünya</h1>
@@ -51,7 +79,13 @@ class App extends Component {
 
         {/* burada const dizim deki açıklama ve baslik propslarını çağırdık 3 kez */}
 
-        <Arakatman dizim={dizim} name="Özl"/>
+        {/* <h1>{this.state.name}</h1>
+        <button onClick={this.changeName.bind(this)}>Değiştir</button>
+        <Arakatman dizim={dizim} name="Özl" addNews={this.addNews}/> */}
+
+        <Counter/>
+
+        <Footer/>
       </div>
     )
   }
