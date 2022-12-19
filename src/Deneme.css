@@ -1,7 +1,7 @@
 /* external css verdik */
 h1{
     color: rgb(25, 151, 67);
-    text-align: left;
+    
 }
 h2{
     color: chartreuse;
@@ -9,5 +9,8 @@ h2{
 
 button{
     color: green;
+}
+p{
+    color:crimson
 }
 
